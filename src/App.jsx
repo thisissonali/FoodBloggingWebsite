@@ -1,6 +1,6 @@
 import React from "react";
 import "../src/App.css";
-import websitelogo from "./assets/websitelogo.svg";
+import Websitelogo from "./assets/Websitelogo.svg";
 import pizzaPhoto from "./assets/pizzaPhoto.svg";
 import pizzaPhotoBorder from "./assets/pizzaPhotoBorder.svg";
 import About from "./About";
@@ -9,7 +9,7 @@ import Footer from "./Footer";
 function App() {
   return (
     <>
-      <img className="websitelogo" src={websitelogo} alt="websitelogo" />
+      <img className="websitelogo" src={Websitelogo} alt="websitelogo" />
 
       <div className="combinePizza">
         <button className="getInTouchBtn">Get in touch</button>
