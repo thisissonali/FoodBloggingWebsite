@@ -4,6 +4,8 @@ import websitelogo from "./assets/websitelogo.svg";
 import pizzaPhoto from "./assets/pizzaPhoto.svg";
 import pizzaPhotoBorder from "./assets/pizzaPhotoBorder.svg";
 import About from "./About";
+import LatestArticles from "./LatestArticles";
+import Footer from "./Footer";
 function App() {
   return (
     <>
@@ -24,13 +26,16 @@ function App() {
           Drinks
         </h1>
       </div>
-      <p className="paratext">
+      <p className="paratexts">
         Naturally made Healthcare Products for the better care & support of your
         body.
       </p>
       
       <About />
-    
+
+      <LatestArticles />
+
+      <Footer />
     </>
   );
 }

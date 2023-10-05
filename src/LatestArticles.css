@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+.Headinggg{
+    margin-top: 84px;
+    font-size: 45px;
+    color: #0E2368;
+    font-family: 'Source Sans 3';
+    font-weight: lighter;
+    margin-left: 80px;
+    margin-bottom: 25px;
+}
+.custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    /* Add your desired background color */
+    color: #333;
+        /* Dark color for arrows */
+        font-size: 44px;
+        /* Adjust the font size for larger arrows */
+        width: 40px;
+        /* Adjust the width for larger arrows */
+        height: 40px;
+        /* Adjust the height for larger arrows */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.custom-prev {
+    left: 10px;
+    /* Adjust the left position as needed */
+}
+
+.custom-next {
+    right: 10px;
+    /* Adjust the right position as needed */
+}

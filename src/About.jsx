@@ -9,7 +9,7 @@ function About() {
       <div className="aboutBlock">
         <div className="AbtSectionBlock">
                   <h1> About Us </h1>
-                  <p>
+                  <p className='paratextt'>
                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor illo natus vitae incidunt voluptatibus perferendis temporibus neque, magnam odio blanditiis facilis minima voluptatem non fuga, recusandae voluptatum magni, corrupti asperiores sunt ipsa? A assumenda mollitia ullam at aperiam natus quibusdam vitae, quisquam voluptas maxime quaerat est eligendi! Ducimus, temporibus cupiditate?
                   </p>
                   <button className='btn'>Read More</button>

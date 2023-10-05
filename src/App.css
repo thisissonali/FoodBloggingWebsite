@@ -24,13 +24,13 @@
 
 .combinePizza{
   position: relative;
-  margin-top: -122px;
+  margin-top: -161px;
   margin-left: 78px;  
 
 }
 
 .getInTouchBtn{
-  height:42px;
+   height:42px;
    margin-top:32px;
    margin-left: 1277px;
    border: 1px solid #ffffff;
@@ -58,7 +58,7 @@
   color:#0E2368;
 }
 
-.paratext{
+.paratexts{
   font-family: 'Open Sans';
   font-size: 16.44px;
   line-height: 27.41px;
