@@ -1,35 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import React from "react";
+import "../src/App.css";
+import websitelogo from "./assets/websitelogo.svg";
+import pizzaPhoto from "./assets/pizzaPhoto.svg";
+import pizzaPhotoBorder from "./assets/pizzaPhotoBorder.svg";
+import About from "./About";
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <img className="websitelogo" src={websitelogo} alt="websitelogo" />
+
+      <div className="combinePizza">
+        <button className="getInTouchBtn">Get in touch</button>
+        <img className="pizzaPhoto" src={pizzaPhoto} alt="pizzaPhoto" />
+        <img
+          className="pizzaPhotoBorder"
+          src={pizzaPhotoBorder}
+          alt="pizzaPhotoBorder"
+        />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <div className="HeadinggBox">
+        <h1 className="Headingg">
+          Discover the <span style={{ color: "#E23744" }}>Best</span> Food and
+          Drinks
+        </h1>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+      <p className="paratext">
+        Naturally made Healthcare Products for the better care & support of your
+        body.
       </p>
+      
+      <About />
+    
     </>
-  )
+  );
 }
 
-export default App
+export default App;

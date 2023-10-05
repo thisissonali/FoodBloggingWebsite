@@ -1,0 +1,39 @@
+.aboutBlock{
+    height: 505px;
+    width:1515px;
+    margin-top: 450px;
+    background-image: linear-gradient(#1E2A5D0A 4%, #303E820A 4%, #3C509D0A 4%);
+}
+
+.AboutPicture{
+    margin-left: 205px;
+    margin-top: -150px;
+    height: 505px;
+    
+}
+h1{
+    color:#0E2368;
+}
+.AbtSectionBlock{
+    margin-left: 789px;
+    width: 447px;
+    height: 150px;
+    padding-top: 40px;
+   
+}
+p{
+    line-height: 21px;
+    margin-top: 20px;
+    width: 450px;
+    color: #444957;
+}
+.btn{
+    height: 42px;
+    border: 1px solid #ffffff;
+    padding: 3px 26px 3px 26px;
+    gap: 10px;
+    background-color: #E23744;
+    border-radius: 25px;
+    color:#ffffff;
+    margin-top: 30px;
+}
